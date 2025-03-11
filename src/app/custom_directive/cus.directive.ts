@@ -1,7 +1,8 @@
 import {Directive, ElementRef, HostBinding, HostListener} from '@angular/core';
 
 @Directive({
-  selector: '[appCus]'
+    selector: '[appCus]',
+    standalone: false
 })
 export class CusDirective {
 
